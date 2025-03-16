@@ -1,0 +1,410 @@
+# Copyright (C) 2024 Heyzine
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PDF Flipbook Heyzine 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pdf-flipbook-heyzine\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-27T14:44:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: pdf-flipbook-heyzine\n"
+
+#. Plugin Name of the plugin
+#: pdf-flipbook-heyzine.php
+msgid "PDF Flipbook Heyzine"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: pdf-flipbook-heyzine.php
+msgid "https://heyzine.com"
+msgstr ""
+
+#. Description of the plugin
+#: pdf-flipbook-heyzine.php
+msgid "Heyzine is a flipbook maker for realistic page turn effects or slideshows with your PDF. Customize the PDF viewer with your own brand and style and add interactivity like videos, audios, or any kind of embed to your PDF."
+msgstr ""
+
+#. Author of the plugin
+#: pdf-flipbook-heyzine.php
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:43
+#: admin/partials/cl-heyzine-admin-invalid-token.php:18
+#: admin/partials/cl-heyzine-admin-valid-token.php:22
+msgid "Heyzine"
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:162
+msgid "Select a file to create a new heyzine flipbook"
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:163
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:165
+msgid "Select file"
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:164
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:90
+#: heyzine-block/src/edit.js:116
+msgid "Page"
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:216
+#: admin/class-cl-heyzine-admin.php:217
+msgid "General"
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:225
+#: admin/class-cl-heyzine-admin.php:226
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:46
+#: admin/partials/cl-heyzine-admin-valid-token.php:23
+msgid "Add New Flipbook"
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:272
+msgid "You can not view this private data."
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:310
+msgid "The flipbook does not exist."
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:351
+msgid "The flipbook state is invalid."
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:402
+msgid "The flipbook save was not possible."
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:544
+msgid "Error: File URL not valid"
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:550
+msgid "Error validating nonce"
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:687
+msgid "Heyzine settings page"
+msgstr ""
+
+#: admin/class-cl-heyzine-admin.php:715
+msgid "Invalid nonce state"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:98
+msgid "Error creating the flipbook"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:108
+msgid "Create a new Heyzine Flipbook"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:116
+msgid "Title"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:120
+msgid "Subtitle"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:124
+msgid "Page type"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:126
+msgid "Magazine"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:127
+msgid "Slider"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:128
+msgid "Cards"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:129
+msgid "One page"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:134
+msgid "Save"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:135
+#: admin/partials/cl-heyzine-admin-valid-token.php:61
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:217
+msgid "Customize"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:138
+msgid "Copy Link"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:139
+msgid "Copy Shortcode"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:157
+msgid "Select or upload a document (pdf, docx, pptx) to create a new flipbook."
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-create-flipbook.php:168
+msgid "Create flipbook"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-error-token.php:18
+msgid "Error obtaining access to Heyzine"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-invalid-token.php:20
+msgid "Create or connect a Heyzine account to start converting and publishing flipbooks on your website."
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-invalid-token.php:27
+msgid "Try to authenticate again."
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-invalid-token.php:33
+msgid "Sign In or Sign Up"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:25
+msgid "Flipbooks list"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:31
+msgid "You can now create a new Heyzine Flipbook and add it to your posts or pages."
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:32
+msgid "Select the flipbook, copy and paste the shortcode, or add a new Heyzine block in the Gutenberg editor."
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:59
+msgid "Cover"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:62
+msgid "Copy link"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:63
+msgid "Shortcode"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:74
+msgid "Shortcode Generator"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:76
+#: admin/partials/cl-heyzine-admin-valid-token.php:174
+msgid "Toggle panel"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:81
+msgid "Select your Heyzine title to view the shortcode to embed it."
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:84
+msgid "Select a Heyzine Flipbook"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:136
+msgid "Open on "
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:138
+msgid "Select page"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:145
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:222
+msgid "Responsive width"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:150
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:231
+msgid "Flipbook width"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:155
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:245
+msgid "Flipbook height"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:160
+#: admin/partials/cl-heyzine-admin-valid-token.php:163
+msgid "Click to copy the shortcode to clipboard"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:172
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:180
+msgid "Connected with "
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:183
+msgid "Disconnect Heyzine Account"
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:186
+msgid "All the embedded flipbooks will keep working, but you will need to reconnect your Heyzine account to add new flipbooks."
+msgstr ""
+
+#: admin/partials/cl-heyzine-admin-valid-token.php:189
+msgid "Disconnect"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:83
+msgid "Select a Heyzine Flipbook:"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:199
+msgid "Embed"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:202
+msgid "Select a Heyzine:"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:203
+msgid "Select the Heyzine title to be inserted"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:223
+msgid "Determines whether the width will be responsive and depending of the Heyzine height"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:232
+msgid "Sets the width of the embedded Heyzine"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:246
+msgid "Sets the height of the embedded Heyzine"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:265
+msgid "Additional options"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:270
+msgid "Show Border"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:271
+msgid "Determines whether to display a border around the embed"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:278
+msgid "Show page turn hint"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:279
+msgid "Determines whether a page folding animation is displayed to attract attention"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:289
+msgid "Loading..."
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:294
+msgid "Select a Heyzine Flipbook to embed"
+msgstr ""
+
+#: heyzine-block/build/index.js:1
+#: heyzine-block/src/edit.js:300
+msgid "There are no Heyzine Flipbooks available"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block title"
+msgid "Heyzine"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block description"
+msgid "Embed a Heyzine Flipbook"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block keyword"
+msgid "heyzine"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block keyword"
+msgid "magazine"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block keyword"
+msgid "catalog"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block keyword"
+msgid "report"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block keyword"
+msgid "publication"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block keyword"
+msgid "pdf"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block keyword"
+msgid "flipbook"
+msgstr ""
+
+#: heyzine-block/build/block.json
+#: heyzine-block/src/block.json
+msgctxt "block keyword"
+msgid "flip book"
+msgstr ""

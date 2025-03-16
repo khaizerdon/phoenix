@@ -1,0 +1,261 @@
+.cl-heyzine-options .cl-btn-new-heyzine {
+	display: block;
+	margin-top: 1rem;
+}
+
+.cl-heyzine-options details {
+	margin-top: 1rem;
+	padding: 1em;
+	background-color: #fff0f3;
+}
+
+.cl-heyzine-options details summary {
+	cursor: pointer;
+}
+
+.cl-heyzine-options details .button {
+	background-color: #d63638;
+	color: #fff;
+}
+
+.cl-heyzine-options details p {
+	margin-left: 3em;
+}
+
+.cl-heyzine-options details .button:hover {
+	color: #d63638;
+}
+
+.cl-heyzine-shortcode {
+	display: block;
+	margin-top: 1rem;
+	cursor: pointer;
+	width: 100%;
+	background-color: #daf3e4;
+	box-sizing: border-box;
+	padding: 39px 14px;
+}
+
+.cl-heyzine-shortcode-container {
+	position: relative;
+	max-width: 750px;
+}
+
+#cl-heyzine-copy-shortcode {
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#cl-upload-heyzine-btn {
+	min-width: 168px;
+}
+
+
+.cl-heyzine-copy-shortcode::before {
+	content: "\f105";
+	color: #646970;
+	font: normal 20px/1 dashicons;
+	display: inline-block;
+	padding: 0 5px 0 0;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+	vertical-align: top;	
+}
+
+.heyzine-select-inline {
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.heyzine-conversion-process-preview {
+	display: none;
+}
+
+#heyzine-preview-pagetype {
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.heyzine-preview-container {
+	display: flex;
+	gap: 2rem;
+	justify-content: space-between;
+}
+
+.heyzine-preview-data-buttons {
+	margin-top: 35px;
+}
+
+.heyzine-preview-data p button {
+	width: calc(50% - 2px);
+	box-sizing: border-box;
+}
+
+
+.heyzine-preview-iframe iframe {
+	width: 580px;
+	height: 400px;
+}
+
+.heyzine-conversion-process-stop {
+
+}
+
+.heyzine-conversion-process-progress {
+	display: none;
+}
+
+.heyzine-conversion-process-progress-content {
+	min-height: 100px;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.dashicons-update {
+    animation: spin 1s linear infinite;
+}
+
+.heyzine-conversion-process {
+	font-size: 35px;
+	width: 35px;
+	height: 35px;	
+}
+
+@keyframes spin {
+from {
+	transform: rotate(0deg);
+}
+to {
+	transform: rotate(360deg);
+}
+}
+
+.heyzine-table td {
+	vertical-align: middle;
+}
+
+.heyzine-table-container {
+	height: 340px;
+	overflow: auto;
+	margin: 12px 0;
+	border-bottom: 1px solid lightgray;
+	box-sizing: border-box;
+}
+
+.heyzine-toggle-container .postbox-header {
+	cursor: pointer;
+}
+
+.heyzine-file-selected {
+	margin-left: 7px;
+	margin-top: 13px;
+	vertical-align: top;
+	display: inline-block;	
+}
+
+.heyzine-postbox {
+	min-width: 450px;
+}
+
+.heyzine-postbox h2,
+.heyzine-toggle-container .handle-actions,
+.heyzine-toggle-container h2 {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.heyzine-info-container {
+	margin-top: 12px;
+}
+
+.heyzine-info-container p:first-child {
+	margin-top: 24px;
+}
+
+.heyzine-preview-data input, 
+.heyzine-preview-data select {
+	width: 100%;
+	margin-top: 6px;
+}
+
+/** Toggle Switch */
+
+.range input[type="range"] {
+	width: 220px;
+}
+
+.range-value {
+	color: #8c8f94;
+	font-style: italic;
+}
+
+.heyzine-table td:last-child {
+	padding-right: 10px;
+}
+
+.postbox select,
+.button-primary.cl-btn-customize,
+.range,
+.toggle {
+	cursor: pointer;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.toggle-switch {
+	display: inline-block;
+	background: #ccc;
+	border-radius: 13px;
+	width: 48px;
+	height: 26px;
+	position: relative;
+	vertical-align: middle;
+	transition: background 0.25s;
+}
+
+.toggle-switch::before,
+.toggle-switch::after {
+	content: "";
+}
+
+.toggle-switch::before {
+	display: block;
+	background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	transition: left 0.25s;
+}
+
+.toggle:hover .toggle-switch::before {
+	background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.toggle-checkbox:checked + .toggle-switch {
+	background: #56c080;
+}
+
+.toggle-checkbox:checked + .toggle-switch::before {
+	left: 24px;
+}
+
+.toggle-checkbox {
+	position: absolute;
+	visibility: hidden;
+}
+
+.toggle-label {
+	margin-left: 5px;
+	position: relative;
+	top: 2px;
+}
